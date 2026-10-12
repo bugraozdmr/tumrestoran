@@ -1,3 +1,4 @@
+
 name: Deploy to App Store
 
 on:
@@ -9,12 +10,17 @@ permissions:
 jobs:
   deploy:
     name: Build & Upload to App Store Connect
-    runs-on: macos-14
+    runs-on: macos-26
     timeout-minutes: 60
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Verify Xcode and Swift
+        run: |
+          xcodebuild -version
+          swift --version
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
@@ -27,8 +33,9 @@ jobs:
           flutter config --no-enable-swift-package-manager
           mkdir -p build/ios/SourcePackages build/macos/SourcePackages
           flutter pub get
-          cd ios && pod update && cd ..
-
+          cd ios
+          pod install --repo-update
+          cd ..
 
       - name: Import Apple Certificate
         uses: apple-actions/import-codesign-certs@v2
@@ -37,10 +44,12 @@ jobs:
           p12-password: ${{ secrets.P12_PASSWORD }}
 
       - name: Install Provisioning Profile
+        env:
+          PROFILE_BASE64: ${{ secrets.BUILD_PROVISION_PROFILE_BASE64 }}
         run: |
-          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
-          echo "${{ secrets.BUILD_PROVISION_PROFILE_BASE64 }}" | base64 --decode > ~/Library/MobileDevice/Provisioning\ Profiles/04d61a54-c5e8-495f-a2d6-b1b29e84b9a7.mobileprovision
-          echo "${{ secrets.BUILD_PROVISION_PROFILE_BASE64 }}" | base64 --decode > ~/Library/MobileDevice/Provisioning\ Profiles/Tum_Restoran.mobileprovision
+          mkdir -p "$HOME/Library/MobileDevice/Provisioning Profiles"
+          printf '%s' "$PROFILE_BASE64" | base64 --decode \
+            > "$HOME/Library/MobileDevice/Provisioning Profiles/Tum_Restoran.mobileprovision"
 
       - name: Verify Code Signing Identity
         run: |
@@ -48,26 +57,37 @@ jobs:
 
       - name: Build IPA
         run: |
-          flutter build ipa --release --no-codesign --export-options-plist=ios/ExportOptions.plist
+          flutter build ipa --release \
+            --export-options-plist=ios/ExportOptions.plist
 
       - name: Setup App Store Connect API Key
+        env:
+          APPSTORE_PRIVATE_KEY: ${{ secrets.APPSTORE_PRIVATE_KEY }}
+          APPSTORE_KEY_ID: ${{ secrets.APPSTORE_KEY_ID }}
         run: |
-          mkdir -p ~/.private_keys
-          echo "${{ secrets.APPSTORE_PRIVATE_KEY }}" > ~/.private_keys/AuthKey_${{ secrets.APPSTORE_KEY_ID }}.p8
+          mkdir -p "$HOME/.appstoreconnect/private_keys"
+          printf '%s' "$APPSTORE_PRIVATE_KEY" \
+            > "$HOME/.appstoreconnect/private_keys/AuthKey_${APPSTORE_KEY_ID}.p8"
 
       - name: Upload to App Store Connect
+        env:
+          APPSTORE_KEY_ID: ${{ secrets.APPSTORE_KEY_ID }}
+          APPSTORE_ISSUER_ID: ${{ secrets.APPSTORE_ISSUER_ID }}
         run: |
           IPA_PATH="$(find build/ios/ipa -name '*.ipa' -print -quit)"
+
           if [ -z "$IPA_PATH" ]; then
             echo "IPA dosyasi bulunamadi!"
             exit 1
           fi
+
           echo "Yukleniyor: $IPA_PATH"
+
           xcrun altool --upload-app \
             --type ios \
             -f "$IPA_PATH" \
-            --apiKey "${{ secrets.APPSTORE_KEY_ID }}" \
-            --apiIssuer "${{ secrets.APPSTORE_ISSUER_ID }}"
+            --apiKey "$APPSTORE_KEY_ID" \
+            --apiIssuer "$APPSTORE_ISSUER_ID"
 
       - name: Upload IPA as GitHub Artifact
         if: always()
