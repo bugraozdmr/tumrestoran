@@ -32,7 +32,10 @@ jobs:
           xcodebuild -version
 
       - name: Install dependencies
-        run: flutter pub get
+        run: |
+          mkdir -p build/ios/SourcePackages
+          flutter pub get
+
 
       - name: Build iOS Simulator app
         run: |
