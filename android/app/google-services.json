@@ -9,6 +9,25 @@
       "client_info": {
         "mobilesdk_app_id": "1:24639567330:android:810b09c18f2ad333d6b5bb",
         "android_client_info": {
+          "package_name": "com.tumrestoran"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO1OwMHLgrsdT-YNU-fXWab2DaRNHfwl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24639567330:android:810b09c18f2ad333d6b5bb",
+        "android_client_info": {
           "package_name": "com.inilabs.foodnanny.customer"
         }
       },
