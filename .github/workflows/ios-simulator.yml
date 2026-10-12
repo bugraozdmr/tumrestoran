@@ -33,7 +33,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          mkdir -p build/ios/SourcePackages
+          flutter config --no-enable-swift-package-manager
+          mkdir -p build/ios/SourcePackages build/macos/SourcePackages
           flutter pub get
 
 
