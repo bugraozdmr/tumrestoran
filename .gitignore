@@ -55,3 +55,4 @@ ignore
 *.mobileprovision
 
 images
+*.aab
