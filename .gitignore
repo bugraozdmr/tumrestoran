@@ -44,3 +44,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+ignore
+*.key
+*.csr
+*.certSigningRequest
+*.cer
+*.p12
+*.p8
+*.mobileprovision

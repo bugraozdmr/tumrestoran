@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '24639567330',
     projectId: 'foodnanny-27d2c',
     storageBucket: 'foodnanny-27d2c.firebasestorage.app',
-    iosBundleId: 'com.inilabs.foodnanny.customer',
+    iosBundleId: 'com.tumrestoran',
   );
 }
