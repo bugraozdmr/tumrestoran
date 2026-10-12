@@ -38,9 +38,7 @@ jobs:
         run: |
           flutter build ios \
             --simulator \
-            --debug \
-            --flavor ios-production \
-            -t lib/main_prod.dart
+            --debug
 
       - name: Package simulator app
         shell: bash
