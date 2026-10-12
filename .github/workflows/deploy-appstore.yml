@@ -27,6 +27,7 @@ jobs:
           flutter config --no-enable-swift-package-manager
           mkdir -p build/ios/SourcePackages build/macos/SourcePackages
           flutter pub get
+          cd ios && pod install --repo-update && cd ..
 
 
       - name: Import Apple Certificate
