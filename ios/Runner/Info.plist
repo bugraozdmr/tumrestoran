@@ -45,8 +45,6 @@
 	<string>Profil görseli yüklemek için fotoğraf galerisine erişim gereklidir.</string>
 	<key>NSUserNotificationUsageDescription</key>
 	<string>Sipariş durumu ve kampanya bildirimlerini alabilmeniz için bildirim izni gereklidir.</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>Sipariş durumu ve önemli güncellemeleri size ulaştırmak için bildirimler kullanılır.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>

@@ -52,4 +52,6 @@ ignore
 *.cer
 *.p12
 *.p8
-*.mobileprovision
+*.mobileprovision
+
+images
