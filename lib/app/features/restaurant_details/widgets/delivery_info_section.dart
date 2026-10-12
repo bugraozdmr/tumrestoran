@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/restaurant_details/controller/restaurant_details_controller.dart';
-import 'package:foodnanny/widgets/text_widget.dart';
+import 'package:tumrestoran/app/features/restaurant_details/controller/restaurant_details_controller.dart';
+import 'package:tumrestoran/widgets/text_widget.dart';
 import 'package:get/get.dart';
 import '../../../../config/theme/app_color.dart';
 import '../../../../utils/svg_icon.dart';

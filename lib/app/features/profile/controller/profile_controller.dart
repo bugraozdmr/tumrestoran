@@ -1,13 +1,13 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:foodnanny/data/model/country_flag_model.dart';
-import 'package:foodnanny/data/model/profile_model.dart';
-import 'package:foodnanny/data/model/setting_model.dart';
-import 'package:foodnanny/data/repository/profile_repo.dart';
-import 'package:foodnanny/data/server/server.dart';
-import 'package:foodnanny/main.dart';
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/data/model/country_flag_model.dart';
+import 'package:tumrestoran/data/model/profile_model.dart';
+import 'package:tumrestoran/data/model/setting_model.dart';
+import 'package:tumrestoran/data/repository/profile_repo.dart';
+import 'package:tumrestoran/data/server/server.dart';
+import 'package:tumrestoran/main.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import '../../../../config/theme/app_color.dart';

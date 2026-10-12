@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/order_details/widgets/review_modal_sheet.dart';
-import 'package:foodnanny/data/model/order_details_model.dart';
-import 'package:foodnanny/widgets/text_widget.dart';
+import 'package:tumrestoran/app/features/order_details/widgets/review_modal_sheet.dart';
+import 'package:tumrestoran/data/model/order_details_model.dart';
+import 'package:tumrestoran/widgets/text_widget.dart';
 import 'package:get/get.dart';
 
 import '../../../../config/theme/app_color.dart';

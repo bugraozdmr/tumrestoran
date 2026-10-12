@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
-import 'package:foodnanny/app/features/restaurant_details/parser/restuarant_details_parser.dart';
-import 'package:foodnanny/data/model/item_details_model.dart';
-import 'package:foodnanny/data/model/restaurant_details.dart';
-import 'package:foodnanny/data/model/restaurant_offer_model.dart';
-import 'package:foodnanny/data/model/search_menu_model.dart';
+import 'package:tumrestoran/app/features/restaurant_details/parser/restuarant_details_parser.dart';
+import 'package:tumrestoran/data/model/item_details_model.dart';
+import 'package:tumrestoran/data/model/restaurant_details.dart';
+import 'package:tumrestoran/data/model/restaurant_offer_model.dart';
+import 'package:tumrestoran/data/model/search_menu_model.dart';
 import '../../utils/api_list.dart';
 import '../model/item_category_model.dart';
 import '../server/server.dart';

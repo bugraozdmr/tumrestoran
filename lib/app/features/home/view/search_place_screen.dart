@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
-import 'package:foodnanny/data/model/place_auto_complete_response.dart';
-import 'package:foodnanny/data/repository/search_places_repo.dart';
-import 'package:foodnanny/utils/api_list.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
+import 'package:tumrestoran/data/model/place_auto_complete_response.dart';
+import 'package:tumrestoran/data/repository/search_places_repo.dart';
+import 'package:tumrestoran/utils/api_list.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 

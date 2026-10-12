@@ -2,12 +2,12 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/restaurant_details/widgets/caution_dialog.dart';
-import 'package:foodnanny/utils/helper/format_price_with_currency.dart';
-import 'package:foodnanny/utils/helper/get_item_price.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
-import 'package:foodnanny/widgets/normal_text.dart';
-import 'package:foodnanny/widgets/text_widget.dart';
+import 'package:tumrestoran/app/features/restaurant_details/widgets/caution_dialog.dart';
+import 'package:tumrestoran/utils/helper/format_price_with_currency.dart';
+import 'package:tumrestoran/utils/helper/get_item_price.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
+import 'package:tumrestoran/widgets/normal_text.dart';
+import 'package:tumrestoran/widgets/text_widget.dart';
 import 'package:get/get.dart';
 import '../../../../config/theme/app_color.dart';
 

@@ -2,7 +2,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:get/get.dart';
 
-import 'package:foodnanny/data/model/item_details_model.dart';
+import 'package:tumrestoran/data/model/item_details_model.dart';
 
 // ignore: must_be_immutable
 class CartModel extends Equatable {

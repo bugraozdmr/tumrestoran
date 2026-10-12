@@ -1,6 +1,6 @@
-import 'package:foodnanny/data/model/coupon_model.dart';
-import 'package:foodnanny/data/model/show_coupon_model.dart';
-import 'package:foodnanny/data/repository/coupon_repo.dart';
+import 'package:tumrestoran/data/model/coupon_model.dart';
+import 'package:tumrestoran/data/model/show_coupon_model.dart';
+import 'package:tumrestoran/data/repository/coupon_repo.dart';
 import 'package:get/get.dart';
 
 class CouponController extends GetxController {

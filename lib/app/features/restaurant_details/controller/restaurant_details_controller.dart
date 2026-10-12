@@ -1,9 +1,9 @@
-import 'package:foodnanny/app/features/cart/controller/cart_controller.dart';
-import 'package:foodnanny/data/model/item_details_model.dart';
-import 'package:foodnanny/data/model/restaurant_details.dart';
-import 'package:foodnanny/data/model/restaurant_offer_model.dart';
-import 'package:foodnanny/data/repository/restaurant_details_repo.dart';
-import 'package:foodnanny/main.dart';
+import 'package:tumrestoran/app/features/cart/controller/cart_controller.dart';
+import 'package:tumrestoran/data/model/item_details_model.dart';
+import 'package:tumrestoran/data/model/restaurant_details.dart';
+import 'package:tumrestoran/data/model/restaurant_offer_model.dart';
+import 'package:tumrestoran/data/repository/restaurant_details_repo.dart';
+import 'package:tumrestoran/main.dart';
 import 'package:get/get.dart';
 import '../../../../data/model/item_category_model.dart';
 

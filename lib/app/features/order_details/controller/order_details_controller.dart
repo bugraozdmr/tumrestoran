@@ -1,9 +1,9 @@
-import 'package:foodnanny/app/features/bottom_navbar/controller/navbar_controller.dart';
-import 'package:foodnanny/app/features/bottom_navbar/views/bottom_navigation.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
-import 'package:foodnanny/data/server/server.dart';
-import 'package:foodnanny/utils/api_list.dart';
-import 'package:foodnanny/widgets/custom_snackbar.dart';
+import 'package:tumrestoran/app/features/bottom_navbar/controller/navbar_controller.dart';
+import 'package:tumrestoran/app/features/bottom_navbar/views/bottom_navigation.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
+import 'package:tumrestoran/data/server/server.dart';
+import 'package:tumrestoran/utils/api_list.dart';
+import 'package:tumrestoran/widgets/custom_snackbar.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../../../data/model/order_details_model.dart';

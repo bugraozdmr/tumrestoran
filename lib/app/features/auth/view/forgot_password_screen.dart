@@ -3,9 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/auth/view/login_screen.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
+import 'package:tumrestoran/app/features/auth/view/login_screen.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
 
 import 'package:get/get.dart';
 

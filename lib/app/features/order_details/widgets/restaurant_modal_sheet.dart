@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/order_details/controller/review_controller.dart';
-import 'package:foodnanny/data/model/order_details_model.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
-import 'package:foodnanny/widgets/custom_snackbar.dart';
-import 'package:foodnanny/widgets/text_widget.dart';
+import 'package:tumrestoran/app/features/order_details/controller/review_controller.dart';
+import 'package:tumrestoran/data/model/order_details_model.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
+import 'package:tumrestoran/widgets/custom_snackbar.dart';
+import 'package:tumrestoran/widgets/text_widget.dart';
 import 'package:get/get.dart';
 
 import '../../../../config/theme/app_color.dart';

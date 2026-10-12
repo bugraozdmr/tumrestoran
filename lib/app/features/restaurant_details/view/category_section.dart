@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:foodnanny/app/features/home/controller/home_controller.dart';
-import 'package:foodnanny/data/model/item_category_model.dart';
-import 'package:foodnanny/data/model/restuarant_model.dart';
+import 'package:tumrestoran/app/features/home/controller/home_controller.dart';
+import 'package:tumrestoran/data/model/item_category_model.dart';
+import 'package:tumrestoran/data/model/restuarant_model.dart';
 import 'package:get/get.dart';
 
 import '../../../../data/model/item_details_model.dart';

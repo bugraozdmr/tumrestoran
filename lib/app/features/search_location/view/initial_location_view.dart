@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:foodnanny/app/features/bottom_navbar/views/bottom_navigation.dart';
-import 'package:foodnanny/app/features/home/controller/home_controller.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
-import 'package:foodnanny/widgets/custom_snackbar.dart';
-import 'package:foodnanny/widgets/primary_button.dart';
+import 'package:tumrestoran/app/features/bottom_navbar/views/bottom_navigation.dart';
+import 'package:tumrestoran/app/features/home/controller/home_controller.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
+import 'package:tumrestoran/widgets/custom_snackbar.dart';
+import 'package:tumrestoran/widgets/primary_button.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';

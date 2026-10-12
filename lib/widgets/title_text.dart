@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class TitleText extends StatelessWidget {

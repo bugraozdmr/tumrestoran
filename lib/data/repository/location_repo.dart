@@ -1,6 +1,6 @@
 // ignore_for_file: non_constant_identifier_names
 
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 // ignore: depend_on_referenced_packages
 import 'package:http/http.dart' as http;

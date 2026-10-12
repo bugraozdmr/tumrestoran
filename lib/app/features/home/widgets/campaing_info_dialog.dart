@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/data/model/campaign_model.dart';
+import 'package:tumrestoran/data/model/campaign_model.dart';
 import 'package:get/get.dart';
 
 import '../../../../config/theme/app_color.dart';

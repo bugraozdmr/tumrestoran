@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/checkout/controller/checkout_controller.dart';
+import 'package:tumrestoran/app/features/checkout/controller/checkout_controller.dart';
 import 'package:get/get.dart';
 
 import '../../../../config/theme/app_color.dart';

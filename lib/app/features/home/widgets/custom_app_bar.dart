@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/address/controller/address_controller.dart';
-import 'package:foodnanny/app/features/cart/controller/cart_controller.dart';
-import 'package:foodnanny/app/features/home/controller/home_controller.dart';
-import 'package:foodnanny/main.dart';
+import 'package:tumrestoran/app/features/address/controller/address_controller.dart';
+import 'package:tumrestoran/app/features/cart/controller/cart_controller.dart';
+import 'package:tumrestoran/app/features/home/controller/home_controller.dart';
+import 'package:tumrestoran/main.dart';
 import 'package:get/get.dart';
 import '../../../../config/theme/app_color.dart';
 import '../../../../utils/svg_icon.dart';

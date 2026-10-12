@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 import '../model/active_order_history_model.dart';
 import '../model/order_details_model.dart';
 import '../model/previous_order_history_model.dart';

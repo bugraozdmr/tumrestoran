@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:equatable/equatable.dart';
-import 'package:foodnanny/utils/helper/type_safer.dart';
+import 'package:tumrestoran/utils/helper/type_safer.dart';
 
 ItemDetailsModel itemDetailsModelFromJson(String str) =>
     ItemDetailsModel.fromJson(json.decode(str));

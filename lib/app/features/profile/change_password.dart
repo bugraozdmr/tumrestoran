@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:foodnanny/widgets/appbar_widget.dart';
+import 'package:tumrestoran/widgets/appbar_widget.dart';
 import 'package:get/get.dart';
 import '../../../config/theme/app_color.dart';
 import '../../../utils/svg_icon.dart';

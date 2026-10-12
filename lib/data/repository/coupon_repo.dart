@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:foodnanny/data/model/apply_coupon_model.dart';
-import 'package:foodnanny/data/model/coupon_model.dart';
-import 'package:foodnanny/data/model/show_coupon_model.dart';
-import 'package:foodnanny/data/server/server.dart';
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/data/model/apply_coupon_model.dart';
+import 'package:tumrestoran/data/model/coupon_model.dart';
+import 'package:tumrestoran/data/model/show_coupon_model.dart';
+import 'package:tumrestoran/data/server/server.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 import 'package:get/get.dart';
 import '../../config/theme/app_color.dart';
 import '../../widgets/custom_snackbar.dart';

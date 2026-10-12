@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:foodnanny/data/model/profile_model.dart';
+import 'package:tumrestoran/data/model/profile_model.dart';
 import '../../utils/api_list.dart';
 import '../server/server.dart';
 

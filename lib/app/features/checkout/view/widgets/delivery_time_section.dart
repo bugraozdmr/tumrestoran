@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:foodnanny/app/features/checkout/view/widgets/is_current_time_in_range.dart';
+import 'package:tumrestoran/app/features/checkout/view/widgets/is_current_time_in_range.dart';
 import 'package:get/get.dart';
 
 import '../../../../../widgets/normal_text.dart';

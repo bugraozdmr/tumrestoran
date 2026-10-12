@@ -2,11 +2,11 @@ import 'dart:convert';
 
 // ignore: depend_on_referenced_packages
 import 'package:flutter/material.dart';
-import 'package:foodnanny/data/model/restuarant_model.dart';
-import 'package:foodnanny/data/server/server.dart';
+import 'package:tumrestoran/data/model/restuarant_model.dart';
+import 'package:tumrestoran/data/server/server.dart';
 // ignore: depend_on_referenced_packages
 import 'package:http/http.dart' as http;
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 import 'package:get/get.dart';
 
 import '../../../../config/theme/app_color.dart';

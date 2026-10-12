@@ -1,4 +1,4 @@
-import 'package:foodnanny/app/localization/english.dart';
+import 'package:tumrestoran/app/localization/english.dart';
 import 'package:get/get_navigation/src/root/internacionalization.dart';
 
 import 'arabic.dart';

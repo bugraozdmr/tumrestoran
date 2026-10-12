@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:foodnanny/app/features/bottom_navbar/views/bottom_navigation.dart';
+import 'package:tumrestoran/app/features/bottom_navbar/views/bottom_navigation.dart';
 import 'package:get/get.dart';
 
 import '../../../config/theme/app_color.dart';

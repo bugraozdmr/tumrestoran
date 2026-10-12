@@ -3,10 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/auth/view/singup_phone_screen.dart';
-import 'package:foodnanny/app/features/auth/widgets/phone_search_form_field.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
-import 'package:foodnanny/widgets/normal_text.dart';
+import 'package:tumrestoran/app/features/auth/view/singup_phone_screen.dart';
+import 'package:tumrestoran/app/features/auth/widgets/phone_search_form_field.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
+import 'package:tumrestoran/widgets/normal_text.dart';
 import 'package:get/get.dart';
 import 'package:phone_form_field/phone_form_field.dart';
 import '../../../../config/theme/app_color.dart';

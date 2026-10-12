@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:foodnanny/data/model/login_model.dart';
-import 'package:foodnanny/data/server/server.dart';
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/data/model/login_model.dart';
+import 'package:tumrestoran/data/server/server.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 
 class AuthRepo {
   final Server _server = Server();

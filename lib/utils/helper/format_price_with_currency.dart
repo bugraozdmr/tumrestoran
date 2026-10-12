@@ -1,4 +1,4 @@
-import 'package:foodnanny/app/features/profile/controller/profile_controller.dart';
+import 'package:tumrestoran/app/features/profile/controller/profile_controller.dart';
 import 'package:get/get.dart';
 
 String formatPriceWithCurrency(double price) {

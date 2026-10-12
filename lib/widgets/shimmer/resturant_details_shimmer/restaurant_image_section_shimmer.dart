@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
 import 'package:shimmer/shimmer.dart';
 
 import '../../../app/features/restaurant_details/widgets/custom_cliper.dart';

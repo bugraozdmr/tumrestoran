@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/data/model/order_details_model.dart';
+import 'package:tumrestoran/data/model/order_details_model.dart';
 import 'package:get/get_utils/src/extensions/export.dart';
 
 import '../../../../config/theme/app_color.dart';

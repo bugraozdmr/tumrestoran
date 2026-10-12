@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:foodnanny/data/model/restuarant_model.dart';
+import 'package:tumrestoran/data/model/restuarant_model.dart';
 
 CampaingModel campaingModelFromJson(String str) =>
     CampaingModel.fromJson(json.decode(str));

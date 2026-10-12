@@ -1,4 +1,4 @@
-import 'package:foodnanny/utils/images.dart';
+import 'package:tumrestoran/utils/images.dart';
 
 const menuItems = [
   AppImages.wings,

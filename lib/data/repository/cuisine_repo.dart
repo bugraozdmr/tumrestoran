@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
-import 'package:foodnanny/data/model/quisine_model.dart';
-import 'package:foodnanny/data/server/server.dart';
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/data/model/quisine_model.dart';
+import 'package:tumrestoran/data/server/server.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 
 import '../../app/features/home/parser/home_parser.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
 import 'package:shimmer/shimmer.dart';
 
 class RestuarantMenuShimmer extends StatelessWidget {

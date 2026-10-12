@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:foodnanny/data/model/active_order_history_model.dart';
-import 'package:foodnanny/data/model/order_details_model.dart';
+import 'package:tumrestoran/data/model/active_order_history_model.dart';
+import 'package:tumrestoran/data/model/order_details_model.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 

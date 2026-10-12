@@ -2,11 +2,11 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:foodnanny/app/features/address/controller/address_controller.dart';
-import 'package:foodnanny/app/features/bottom_navbar/views/bottom_navigation.dart';
-import 'package:foodnanny/app/features/search_location/view/initial_location_view.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
-import 'package:foodnanny/main.dart';
+import 'package:tumrestoran/app/features/address/controller/address_controller.dart';
+import 'package:tumrestoran/app/features/bottom_navbar/views/bottom_navigation.dart';
+import 'package:tumrestoran/app/features/search_location/view/initial_location_view.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
+import 'package:tumrestoran/main.dart';
 import 'package:get/get.dart';
 
 import '../../../../utils/images.dart';

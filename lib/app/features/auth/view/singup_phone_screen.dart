@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/auth/view/login_screen.dart';
-import 'package:foodnanny/utils/helper/get_country_iso.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
-import 'package:foodnanny/widgets/normal_text.dart';
+import 'package:tumrestoran/app/features/auth/view/login_screen.dart';
+import 'package:tumrestoran/utils/helper/get_country_iso.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
+import 'package:tumrestoran/widgets/normal_text.dart';
 import 'package:get/get.dart';
 import 'package:phone_form_field/phone_form_field.dart';
 import '../../../../config/theme/app_color.dart';

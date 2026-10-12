@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:foodnanny/app/features/restaurant_details/view/restuarant_details_screen.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
-import 'package:foodnanny/widgets/appbar_widget.dart';
-import 'package:foodnanny/widgets/item/item.dart';
-import 'package:foodnanny/widgets/loader/loader.dart';
+import 'package:tumrestoran/app/features/restaurant_details/view/restuarant_details_screen.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
+import 'package:tumrestoran/widgets/appbar_widget.dart';
+import 'package:tumrestoran/widgets/item/item.dart';
+import 'package:tumrestoran/widgets/loader/loader.dart';
 import 'package:get/get.dart';
 
 import '../../../../main.dart';

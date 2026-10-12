@@ -3,10 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:foodnanny/app/features/order_details/controller/order_details_controller.dart';
-import 'package:foodnanny/app/features/order_details/view/order_details_screen.dart';
-import 'package:foodnanny/app/features/order_history/controller/order_history_controller.dart';
-import 'package:foodnanny/utils/svg_icon.dart';
+import 'package:tumrestoran/app/features/order_details/controller/order_details_controller.dart';
+import 'package:tumrestoran/app/features/order_details/view/order_details_screen.dart';
+import 'package:tumrestoran/app/features/order_history/controller/order_history_controller.dart';
+import 'package:tumrestoran/utils/svg_icon.dart';
 import 'package:get/get.dart';
 
 import '../../../../config/theme/app_color.dart';

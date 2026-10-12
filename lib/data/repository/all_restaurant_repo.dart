@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
-import 'package:foodnanny/app/features/home/model/single_offer_model.dart'
+import 'package:tumrestoran/app/features/home/model/single_offer_model.dart'
     as single;
-import 'package:foodnanny/app/features/home/parser/home_parser.dart';
-import 'package:foodnanny/data/model/campaign_model.dart';
-import 'package:foodnanny/data/model/restuarant_model.dart';
+import 'package:tumrestoran/app/features/home/parser/home_parser.dart';
+import 'package:tumrestoran/data/model/campaign_model.dart';
+import 'package:tumrestoran/data/model/restuarant_model.dart';
 import '../../app/features/home/model/find_offer_model.dart';
 import '../../app/features/home/model/single_check_offer_model.dart';
 import '../../utils/api_list.dart';

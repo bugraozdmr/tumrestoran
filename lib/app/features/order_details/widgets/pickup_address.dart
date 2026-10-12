@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/data/model/order_details_model.dart';
-import 'package:foodnanny/widgets/text_widget.dart';
+import 'package:tumrestoran/data/model/order_details_model.dart';
+import 'package:tumrestoran/widgets/text_widget.dart';
 import 'package:get/route_manager.dart';
 import 'package:get/utils.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';

@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:foodnanny/data/model/address_model.dart';
-import 'package:foodnanny/data/repository/address_repo.dart';
-import 'package:foodnanny/widgets/custom_snackbar.dart';
+import 'package:tumrestoran/data/model/address_model.dart';
+import 'package:tumrestoran/data/repository/address_repo.dart';
+import 'package:tumrestoran/widgets/custom_snackbar.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';

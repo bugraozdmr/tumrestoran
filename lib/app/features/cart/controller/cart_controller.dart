@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:foodnanny/app/features/cart/model/cart_model.dart';
-import 'package:foodnanny/app/features/checkout/controller/checkout_controller.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
-import 'package:foodnanny/data/model/item_details_model.dart';
-import 'package:foodnanny/data/server/server.dart';
-import 'package:foodnanny/main.dart';
-import 'package:foodnanny/utils/api_list.dart';
-import 'package:foodnanny/widgets/custom_snackbar.dart';
+import 'package:tumrestoran/app/features/cart/model/cart_model.dart';
+import 'package:tumrestoran/app/features/checkout/controller/checkout_controller.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
+import 'package:tumrestoran/data/model/item_details_model.dart';
+import 'package:tumrestoran/data/server/server.dart';
+import 'package:tumrestoran/main.dart';
+import 'package:tumrestoran/utils/api_list.dart';
+import 'package:tumrestoran/widgets/custom_snackbar.dart';
 import 'package:get/get.dart';
 
 class CartController extends GetxController {

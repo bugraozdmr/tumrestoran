@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 import '../../main.dart';
 import 'package:http/http.dart' as http;
 

@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:foodnanny/app/features/bottom_navbar/controller/navbar_controller.dart';
-import 'package:foodnanny/app/features/profile/controller/profile_controller.dart';
-import 'package:foodnanny/data/model/login_model.dart';
-import 'package:foodnanny/data/repository/auth_repo.dart';
-import 'package:foodnanny/utils/api_list.dart';
-import 'package:foodnanny/widgets/custom_snackbar.dart';
+import 'package:tumrestoran/app/features/bottom_navbar/controller/navbar_controller.dart';
+import 'package:tumrestoran/app/features/profile/controller/profile_controller.dart';
+import 'package:tumrestoran/data/model/login_model.dart';
+import 'package:tumrestoran/data/repository/auth_repo.dart';
+import 'package:tumrestoran/utils/api_list.dart';
+import 'package:tumrestoran/widgets/custom_snackbar.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import '../../../../config/theme/app_color.dart';

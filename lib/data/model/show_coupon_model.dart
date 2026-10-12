@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:foodnanny/utils/helper/type_safer.dart';
+import 'package:tumrestoran/utils/helper/type_safer.dart';
 
 ShowCouponModel showCouponModelFromJson(String str) =>
     ShowCouponModel.fromJson(json.decode(str));

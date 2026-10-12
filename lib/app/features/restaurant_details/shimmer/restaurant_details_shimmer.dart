@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:foodnanny/widgets/shimmer/resturant_details_shimmer/restuarant_item_card_shimmer.dart';
+import 'package:tumrestoran/widgets/shimmer/resturant_details_shimmer/restuarant_item_card_shimmer.dart';
 
 import '../../../../widgets/shimmer/resturant_details_shimmer/available_deals_shimmer.dart';
 import '../../../../widgets/shimmer/resturant_details_shimmer/restaurant_details_section_shimmer.dart';

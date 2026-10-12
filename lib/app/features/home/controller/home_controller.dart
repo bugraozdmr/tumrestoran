@@ -1,10 +1,10 @@
-import 'package:foodnanny/app/features/home/model/find_offer_model.dart';
-import 'package:foodnanny/app/features/home/model/single_offer_model.dart';
-import 'package:foodnanny/data/model/campaign_model.dart';
-import 'package:foodnanny/data/model/quisine_model.dart';
-import 'package:foodnanny/data/model/restuarant_model.dart';
-import 'package:foodnanny/data/repository/all_restaurant_repo.dart';
-import 'package:foodnanny/data/repository/cuisine_repo.dart';
+import 'package:tumrestoran/app/features/home/model/find_offer_model.dart';
+import 'package:tumrestoran/app/features/home/model/single_offer_model.dart';
+import 'package:tumrestoran/data/model/campaign_model.dart';
+import 'package:tumrestoran/data/model/quisine_model.dart';
+import 'package:tumrestoran/data/model/restuarant_model.dart';
+import 'package:tumrestoran/data/repository/all_restaurant_repo.dart';
+import 'package:tumrestoran/data/repository/cuisine_repo.dart';
 import 'package:get/get.dart';
 
 import '../model/single_check_offer_model.dart';

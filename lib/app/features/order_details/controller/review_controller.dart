@@ -1,8 +1,8 @@
-import 'package:foodnanny/app/features/order_details/model/review_model.dart';
-import 'package:foodnanny/config/theme/app_color.dart';
-import 'package:foodnanny/data/server/server.dart';
-import 'package:foodnanny/utils/api_list.dart';
-import 'package:foodnanny/widgets/custom_snackbar.dart';
+import 'package:tumrestoran/app/features/order_details/model/review_model.dart';
+import 'package:tumrestoran/config/theme/app_color.dart';
+import 'package:tumrestoran/data/server/server.dart';
+import 'package:tumrestoran/utils/api_list.dart';
+import 'package:tumrestoran/widgets/custom_snackbar.dart';
 import 'package:get/get.dart';
 
 class ReviewController extends GetxController {

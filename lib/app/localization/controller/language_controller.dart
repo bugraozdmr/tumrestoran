@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodnanny/data/server/server.dart';
+import 'package:tumrestoran/data/server/server.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import '../../../utils/api_list.dart';

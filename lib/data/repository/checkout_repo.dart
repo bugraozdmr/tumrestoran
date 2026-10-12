@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:foodnanny/data/model/tip_model.dart';
-import 'package:foodnanny/data/server/server.dart';
-import 'package:foodnanny/utils/api_list.dart';
+import 'package:tumrestoran/data/model/tip_model.dart';
+import 'package:tumrestoran/data/server/server.dart';
+import 'package:tumrestoran/utils/api_list.dart';
 
 class CheckoutRepo {
   Future<Either<String, TipModel>> riderTips() async {

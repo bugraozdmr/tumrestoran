@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:foodnanny/app/features/home/controller/home_controller.dart';
-import 'package:foodnanny/data/model/restuarant_model.dart';
-import 'package:foodnanny/data/repository/all_restaurant_repo.dart';
+import 'package:tumrestoran/app/features/home/controller/home_controller.dart';
+import 'package:tumrestoran/data/model/restuarant_model.dart';
+import 'package:tumrestoran/data/repository/all_restaurant_repo.dart';
 import 'package:get/get.dart';
 
 class ExploreController extends GetxController {

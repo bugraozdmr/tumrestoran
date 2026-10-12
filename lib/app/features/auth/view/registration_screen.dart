@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foodnanny/app/features/auth/controller/auth_controller.dart';
-import 'package:foodnanny/app/features/profile/controller/profile_controller.dart';
-import 'package:foodnanny/app/features/profile/view/show_pages.dart';
-import 'package:foodnanny/widgets/custom_snackbar.dart';
+import 'package:tumrestoran/app/features/auth/controller/auth_controller.dart';
+import 'package:tumrestoran/app/features/profile/controller/profile_controller.dart';
+import 'package:tumrestoran/app/features/profile/view/show_pages.dart';
+import 'package:tumrestoran/widgets/custom_snackbar.dart';
 import 'package:get/get.dart';
 
 import '../../../../config/theme/app_color.dart';
